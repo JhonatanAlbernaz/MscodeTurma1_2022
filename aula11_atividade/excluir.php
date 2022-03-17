@@ -1,9 +1,7 @@
 <?php
-    $title = "Lista de tarefas";
+    $title = "Excluir tarefa";
     include "includes/cabecalho.php";
 ?>
-
-<h1>Minha lista de tarefas</h1>
 
 <?php
     
@@ -14,11 +12,12 @@
     $tarefas = json_decode($conteudo);
     fclose($arq);
 
-    echo "<ol>";
-    foreach($tarefas as $i => $tarefa) echo "<li>$tarefa->nome 
-    <a href=detalhes.php?id=$i>Ver detalhes</a>" ."  " . "<a href=excluir.php?id=$i>Excluir</a></li>";
-    echo "</ol>";
+    $pos = $_GET['id'];
 
+    echo "<h1> Informações da Tarefa - " . $tarefas[$pos]->nome . "</h1>";
+    unset($tarefas[$pos]);
+    json_encode($tarefas);
+    
 ?>
 
 <?php

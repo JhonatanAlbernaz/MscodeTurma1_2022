@@ -5,7 +5,7 @@
 
 <?php
     
-    require_once "models/contato.php";
+    require_once "models/tarefas.php";
 
     $novaTarefa = new Tarefas($_POST['nome'], $_POST['entrega'], $_POST['descricao']);
     $nomeArq = "tarefas.json";
