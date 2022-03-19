@@ -13,10 +13,12 @@
     fclose($arq);
 
     $pos = $_GET['id'];
-
-    echo "<h1> Informações da Tarefa - " . $tarefas[$pos]->nome . "</h1>";
+    
     unset($tarefas[$pos]);
-    json_encode($tarefas);
+    $arq = fopen($nomeArq, 'w');
+    fwrite($arq, json_encode($tarefas));
+    fclose($arq);
+    header('Location: lista.php');
     
 ?>
 
