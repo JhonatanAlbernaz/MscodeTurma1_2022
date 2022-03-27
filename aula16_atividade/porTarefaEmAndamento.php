@@ -17,7 +17,7 @@
 
     $stmt->execute();
 
-    echo "<p> A tarefa $idTarefa foi colocada em andamento. </p>";
+    echo "<br><p> A tarefa - " . "<b> $idTarefa </b>" . " - foi colocada em andamento. </p>";
 
 ?>
 

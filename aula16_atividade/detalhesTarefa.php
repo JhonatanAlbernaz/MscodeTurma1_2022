@@ -14,7 +14,11 @@
     $result->execute();
     $tarefa = $result->fetch(PDO::FETCH_OBJ);
 
-    echo $tarefa->nome;
+    echo "<h1> Informações da Tarefa - " . $tarefa->nome . "</h1>";
+    echo "<ul>";
+    echo "<li><b>Descrição:</b> $tarefa->descricao </li>";
+    echo "</ul>";
+
 
 ?>
 

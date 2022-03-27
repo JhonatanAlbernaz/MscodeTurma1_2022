@@ -10,10 +10,9 @@
     
     $stmt = $con->prepare("DELETE FROM tarefa WHERE id = ?");
     $stmt->bindParam(1, $idTarefa);
-
     $stmt->execute();
 
-    echo "<p> A tarefa $idTarefa foi removida com sucesso! </p>";
+    echo "<br><p> A tarefa - " . "<b> $idTarefa </b>" . " - foi removida com sucesso! </p>";
 
 ?>
 

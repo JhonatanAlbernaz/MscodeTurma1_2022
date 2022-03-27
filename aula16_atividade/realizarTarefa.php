@@ -17,7 +17,7 @@
 
     $stmt->execute();
 
-    echo "<p> A tarefa $idTarefa foi realizada. </p>";
+    echo "<br><p> A tarefa - " . "<b> $idTarefa </b>" . " - foi realizada. </p>";
 
 ?>
 

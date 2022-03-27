@@ -1,0 +1,88 @@
+.nome-e-descricao-criar-tarefa {
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    color: #32be8f;
+}
+
+.input-nome {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 215px;
+    height: 25px;
+    border: 2px solid #b2bfe0;
+    border-radius: 5px;
+}
+
+.textarea-descricao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 215px;
+    height: 80px;
+    border: 2px solid #b2bfe0;
+    border-radius: 5px;
+}
+
+.link-lista-tarefa {
+    color: #0d6efd;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.botao-criar-tarefa {
+    cursor: pointer;
+    margin-top: -65px;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+}
+
+.link-nova-tarefa {
+    color: #0d6efd;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.th-lista-das-tarefas {
+    font-family: 'Playfair Display', serif;
+    color: #1cc88a;
+}
+
+.ver-detalhes {
+    color: #36b9cc;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.excluir {
+    color: #b4975a;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.margin-top-35px {
+    margin-top: 35px;
+}
+
+.padding-5px {
+    padding: 5px;
+}
+
+.por-em-andamento-realizar {
+    color: #67349D;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 15px;
+}

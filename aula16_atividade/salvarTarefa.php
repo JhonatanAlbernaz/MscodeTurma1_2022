@@ -19,7 +19,7 @@
 
     $stmt->execute();
 
-    echo "<p> A tarefa - " . "<b> $nome_da_tarefa </b>" ." - foi cadastrada com sucesso! </p>";
+    echo "<br><p> A tarefa - " . "<b> $nome_da_tarefa </b>" ." - foi cadastrada com sucesso! </p>";
 
 ?>
 

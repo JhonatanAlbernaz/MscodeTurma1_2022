@@ -12,11 +12,11 @@
 
 <html>
 
-<a href="novaTarefa.php"> Nova tarefa </a>
+<br><a class="link-nova-tarefa" href="novaTarefa.php"> Nova tarefa </a><br><br><br>
 
     <table border="1">
         <thead>
-            <tr>
+            <tr class="th-lista-das-tarefas">
                 <th> Id </th>
                 <th> Nome </th>
                 <th> Descrição </th>
@@ -39,15 +39,15 @@
                 <td><?php if(null != $obj->andamento_em) echo date_format(date_create($obj->andamento_em), "d/m/Y H:i:s"); ?></td>
                 <td><?php if(null != $obj->realizada_em) echo date_format(date_create($obj->realizada_em), "d/m/Y H:i:s"); ?></td>
                 <td>
-                <a href="detalhesTarefa.php?id=<?php echo $obj->id; ?>">Ver detalhes</a><br>
-                <a href="excluirTarefa.php?id=<?php echo $obj->id; ?>">Excluir</a>
+                <a class="ver-detalhes" href="detalhesTarefa.php?id=<?php echo $obj->id; ?>">Ver detalhes</a><br>
+                <a class="excluir" href="excluirTarefa.php?id=<?php echo $obj->id; ?>">Excluir</a>
                 </td>
                 <td>
                 <?php if($obj->situacao == "Criada") { ?>
-                    <a href="porTarefaEmAndamento.php?id=<?php echo $obj->id; ?>"> Em andamento </a><br>
+                    <a class="por-em-andamento-realizar" href="porTarefaEmAndamento.php?id=<?php echo $obj->id; ?>"> Em andamento </a><br>
                 <?php } ?>
                 <?php if($obj->situacao == "Em andamento") { ?>
-                    <a href="realizarTarefa.php?id=<?php echo $obj->id; ?>"> Realizada </a>
+                    <a class="por-em-andamento-realizar" href="realizarTarefa.php?id=<?php echo $obj->id; ?>"> Realizada </a>
                 <?php } ?>
                 </td>
             
