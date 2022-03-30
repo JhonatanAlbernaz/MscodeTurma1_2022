@@ -14,6 +14,21 @@
        <textarea placeholder="Descrição da Tarefa" class="form-control textarea-color" rows="5" name="task-desc" id="task-desc"></textarea>
        <button type="submit" class="btn botao-salvar"> Salvar </button>
       </form>
+      <br>
+      <?php
+
+        session_start();
+        if(isset($_SESSION["tarefa_criada"])) {
+            $titulo = $_SESSION["tarefa_criada"];
+
+            echo "<div class=\"text-center font-family\"> 
+                <p> Tarefa <strong class=\"text text-success\"> $titulo </strong> criada com sucesso!  </p>
+            </div>";
+
+            unset($_SESSION["tarefa_criada"]);
+        }
+
+        ?>
      </div>
     </div>
    </div>

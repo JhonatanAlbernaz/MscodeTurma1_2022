@@ -29,8 +29,8 @@
        <div class="col-lg-6 text-center">
         <div class="margin-top-27px">
          <a href="../todolist/index.php" class="link-a-menu"> Criar tarefa </a>
-         <a href="#" class="link-a-menu"> Tarefas Pendentes </a>
-         <a href="#" class="link-a-menu"> Tarefas Concluídas </a>
+         <a href="../todolist/index2.php" class="link-a-menu"> Tarefas Pendentes </a>
+         <a href="../todolist/index3.php" class="link-a-menu"> Tarefas Concluídas </a>
         </div>    
        </div>   
       <div class="col-lg-3"> </div> 

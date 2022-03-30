@@ -2,7 +2,7 @@
 
     include "includes/header.php";
 
-    include "includes/estrutura.html";
+    include "includes/estrutura.php";
 
     include "includes/footer.php";
 

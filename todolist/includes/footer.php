@@ -1,4 +1,4 @@
-    <footer class="container-fluid height-5em">
+<footer class="container-fluid height-5em">
      <div class="container">
       <div class="row text-center">
        <div class="col-lg-12">

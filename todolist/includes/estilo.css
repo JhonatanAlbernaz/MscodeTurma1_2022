@@ -71,6 +71,43 @@
     text-align: center;
 }
 
+.informacoes-da-tarefa {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding-top: 55px;
+    font-family: 'Zen Antique Soft', serif;
+    text-align: left;
+    margin-left: 90px;
+}
+
+.informacoes-da-tarefa strong {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding-top: 55px;
+    font-family: 'Zen Antique Soft', serif;
+    text-align: left;
+}
+
+.informacoes-da-tarefa h3 {
+    color: #b4975a;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Zen Antique Soft', serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.color-h2 {
+    color: #b4975a !important;
+}
+
+.color-strong {
+    color: #333 !important;
+    font-weight: bold;
+}
+
 .div-form {
     width: 320px;
     margin-top: 40px !important;
@@ -113,6 +150,97 @@
 }
 
 .botao-salvar:hover {
+    background-position: right;
+    color: white !important;
+}
+
+.font-family {
+    font-family: 'Zen Old Mincho', serif !important;
+    font-size: 20px;
+}
+
+.wave-invertida {
+    transform: scaleX(-1);
+    margin-left: 26px !important;
+    margin-top: 65px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 120px;
+    height: 537px;
+}
+
+.banner-image {
+    max-width: 100%;
+    transition: all 0.3s ease 0s;
+    width: 250px;
+    margin-top: -255px;
+    margin-left: 160px;
+    z-index: 1000;
+    position: absolute;
+}
+
+.div-box-shadow-lista-tarefa-pendente {
+    box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    margin-top: 35px;
+    height: 530px;
+    width: 95%;
+    margin-left: 16px;
+    background-color: white;
+}
+
+.div-box-shadow-lista-tarefa-pendente h2 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 55px;
+    font-family: 'Zen Antique Soft', serif;
+    margin-left: -9px;
+    text-align: center;
+}
+
+.div-lista-tarefa-pendente {
+    width: 434px;
+    margin-top: 20px !important;
+}
+
+.div-lista-tarefa-pendente a {
+    padding: 1em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none !important;
+    color: #b4975a;
+    line-height: 1.6;
+    font-size: 1em;
+    transition: 0.7s;
+    font-family: 'Playfair Display', serif;
+}
+
+.div-lista-tarefa-pendente a:hover {
+    color: #38d39f;
+}
+
+.botao-concluir-tarefa {
+    display: block;
+    width: 45%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #806f6f, #38d39f, #b4975a);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Zen Old Mincho', serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    transition: .5s;
+    padding-top: 10px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.botao-concluir-tarefa:hover {
     background-position: right;
     color: white !important;
 }
