@@ -1,5 +1,5 @@
 <section class="container-fluid">  
- <img class="imagem-principal" src="imagens/Projeto ESCOLA-pág 2.jpg" /> 
+ <img class="imagem-principal" src="imagens/BG_3.jpg" /> 
  <div class="container container-margin-top">
   <div class="row row-widht">
    <div class="col-lg-2"></div>
