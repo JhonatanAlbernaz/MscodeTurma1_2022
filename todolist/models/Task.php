@@ -1,15 +1,16 @@
 <?php
-    class Task {
+    class Task{
         public string $title;
-        public string $desc;
+        public string $description;
         public int $status;
-        public string $dInicio;
+        public string $beginDate;
+        public string $endDate;
 
-        public function __construct(string $title, string $desc) {
+        public function __construct(string $title, string $description){
             $this->title = $title;
-            $this->desc = $desc;
+            $this->description = $description;
             $this->status = 1;
-            $this->dInicio = date("Y/m/d");
+            $this->beginDate = date("Y/m/d");
         }
     }
 ?>

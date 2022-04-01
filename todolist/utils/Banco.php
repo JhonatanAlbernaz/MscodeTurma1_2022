@@ -1,11 +1,11 @@
 <?php
-    class Banco {
+    class Banco{
         private static $connection;
 
-        private function __construct() {}
+        private function __construct(){}
 
-        public static function getConnection() {
-            if(self::$connection == null) {
+        public static function getConnection(){
+            if(self::$connection === null){
                 self::$connection = new PDO("mysql:host=localhost;dbname=todo", "root", "mscode@2022");
             }
             return self::$connection;
