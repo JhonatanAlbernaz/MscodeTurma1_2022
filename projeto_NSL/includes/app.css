@@ -1,16 +1,19 @@
 .imagem-principal {
-    width: 1080px;
-    height: 100%;
-    margin-left: -11px;
+    background-image: url(http://localhost/projeto_NSL/imagens/BG_3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 805px;
 }
 
 .container-margin-top {
-    margin-top: -625px !important;
+    height: auto;
+    margin-top: 85px;
     position: absolute;
 }
 
 .row-widht {
     width: 1057px;
+    height: auto;
 }
 
 .div-box-shadow {
@@ -44,7 +47,7 @@
     margin-top: 3px;
     margin-left: 16px;
     background-color: white;
-    height: 480px;
+    height: auto;
     width: 95%;
 }
 

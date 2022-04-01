@@ -1,5 +1,4 @@
-<section class="container-fluid">  
- <img class="imagem-principal" src="imagens/BG_3.jpg" /> 
+<section class="container-fluid imagem-principal">
  <div class="container container-margin-top">
   <div class="row row-widht">
    <div class="col-lg-2"></div>
@@ -18,6 +17,10 @@
       <h4> Professor </h4>
       <h3> Felipe </h3>
       <h4> Diretor </h4>
+      <h3> Felipe </h3>
+      <h4> Diretor </h4>
+      <h3> Maikon </h3>
+      <h4> Professor </h4>
      </div>
     </div>
     </div>
