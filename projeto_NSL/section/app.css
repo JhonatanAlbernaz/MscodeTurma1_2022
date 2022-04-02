@@ -1,0 +1,191 @@
+.p-pagina-imagem-principal {
+    background-image: url(http://localhost/projeto_NSL/imagens/ProjetoESCOLA.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 805px;
+}
+
+.padding-top-165px {
+    padding-top: 165px;
+}
+
+.col-6-div-box-shadow {
+    box-shadow: 0 1.1rem 2rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    margin-top: 43px;
+    background-color: white;
+    height: 445px;
+}
+
+.col-6-div-box-shadow h1 {
+    color: #215ba6;
+    font-size: 4rem;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: -3px;
+    margin-left: -15px;
+}
+
+.col-6-div-box-shadow h2 {
+    color: #f2943e !important;
+    font-size: 5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    line-height: 0.6;
+}
+
+.col-6-div-box-shadow p {
+    color: gray;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.class-form {
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 395px;
+}
+
+.class-form input {
+    border: 2px solid gray;
+    border-color: #d9d9d9;
+    width: 100%;
+    color: gray;
+    height: 35px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.class-form select {
+    border: 2px solid gray;
+    border-color: #d9d9d9;
+    width: 100%;
+    color: gray;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 0px !important;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+}
+
+.botao-enviar {
+    display: block;
+    width: 40%;
+    height: 40px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #e8853b, #215ba6, #000000);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    transition: .5s;
+    padding-top: 5px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.botao-enviar:hover {
+    background-position: right;
+    color: white !important;
+}
+
+.imagem-principal {
+    background-image: url(http://localhost/projeto_NSL/imagens/BG_3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 805px;
+}
+
+.container-margin-top {
+    height: auto;
+    margin-top: 85px;
+    position: absolute;
+}
+
+.row-widht {
+    width: 1057px;
+    height: auto;
+}
+
+.div-box-shadow {
+    box-shadow: 0 1.1rem 2rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    margin-top: 43px;
+    background-color: white;
+}
+
+.div-box-shadow h3 {
+    color: black;
+    font-size: 1.7rem;
+    padding-top: 15px;
+    font-family: 'Merriweather', serif;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.div-box-shadow h4 {
+    color: gray;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    margin-left: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.div-com-conteudo {
+    box-shadow: 0 0.1rem 4rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    margin-top: 3px;
+    margin-left: 16px;
+    background-color: white;
+    height: auto;
+    width: 95%;
+}
+
+.div-data {
+    width: 193px;
+    height: 80px;
+    background-color: #3286e3;
+    margin-left: -184px ;
+    margin-top: 298px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 3px;
+}
+
+.div-data h2 {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.height-e-widht {
+    height: auto !important;
+    width: auto !important;
+}
+
+.height-e-widht h2 {
+    color: #3286e3;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-top: 55px;
+    font-family: 'Merriweather', serif;
+    margin-left: 5px;
+    text-align: center;
+}

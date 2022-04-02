@@ -1,0 +1,67 @@
+.img-fundo{
+    background-image: url("file:///home/aluno/Downloads/BG_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.box-shadow{
+    margin-top: 50px;
+    height: 410px;
+    border-radius:40px;
+}
+button{
+    width: 262px;
+    border-color: #f2943e !important;
+    color: #f2943e;
+    background-color: white;
+}
+button:hover{
+    background-color: #f2943e !important;
+    color: white;
+
+
+}
+.logo{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 145px; 
+    height: 65px;
+}
+.aniversario{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #0e48ad !important;
+    letter-spacing: -3px;
+}
+.dodia{
+    font-family: 'Fredoka One', cursive;
+    color: #f2943e !important;
+    font-size: 75px;
+    line-height:0.6;
+}
+.frase{
+    color: #bebebe !important;
+    font-size: 14px;
+    font-family: 'Bree Serif', serif;
+}
+form{
+    margin-top: 10px;
+}
+.funcoes-data{
+    height: 32px;
+    width: 262px;
+}
+input{
+    color: dimgray;
+    border-color: #d9d9d9;
+    border-radius: 5px;
+}
+option{
+    color:dimgray;
+}
+select{
+    color:dimgray; 
+    border-radius: 5px;
+    background-color: white !important;
+}

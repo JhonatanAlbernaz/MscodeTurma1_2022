@@ -1,9 +1,10 @@
 <?php
 
-    include "includes/header.php";
+    $title = "Aniversariantes do D/M";
+    include "inc/header.php";
 
-    include "includes/estrutura.php";
+    include "section/estrutura.php";
 
-    include "includes/footer.php";
+    include "inc/footer.php";
 
 ?>
