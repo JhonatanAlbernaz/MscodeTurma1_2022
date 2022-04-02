@@ -9,7 +9,7 @@
     <div class="div-box-shadow-nova-tarefa">
      <h2> Criar novo Usuário </h2>
      <div class="div-form">
-      <form action="../todolist/createtask.php" method="POST">
+      <form action="save_user.php" method="POST">
        <input class="input-titulo-tarefa" type="email" name="email" id="email" placeholder="Seu email" />
        <input class="input-titulo-tarefa" type="password" name="password" id="password" placeholder="Sua senha" />
        <button type="submit" class="btn botao-salvar"> Salvar </button>

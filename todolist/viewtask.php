@@ -1,7 +1,7 @@
 <?php
 
     include "includes/header.php";
-    include("models/Banco.php");
+    include("utils/Banco.php");
 
 ?>
 
@@ -16,18 +16,18 @@
 
         $id = $_GET['id'];
 
-        $stmt = Banco::getConnection()->prepare("SELECT titulo, descricao, status, dInicio, dFim FROM tasks WHERE id=?");
+        $stmt = Banco::getConnection()->prepare("SELECT title, description, status, beginDate, endDate FROM tasks WHERE id=?");
         $stmt->bindParam(1, $id);
         $stmt->execute();
         $task = $stmt->fetch(PDO::FETCH_OBJ);
 
-        echo "<h2 class=\"color-h2\"><strong class=\"color-strong\">Detalhes da tarefa: </strong>$task->titulo</h2>";
+        echo "<h2 class=\"color-h2\"><strong class=\"color-strong\">Detalhes da tarefa: </strong>$task->title</h2>";
 
         echo "<div class=\"informacoes-da-tarefa\">";
-        echo "<h3><strong>Descrição: </strong>$task->descricao</h3>";
+        echo "<h3><strong>Descrição: </strong>$task->description</h3>";
         echo "<h3><strong>Status: </strong>$task->status</h3>";
-        echo "<h3><strong>Data de Inicio: </strong>$task->dInicio</h3>";
-        echo "<h3><strong>Data de Finalização: </strong>$task->dFim</h3>";
+        echo "<h3><strong>Data de Inicio: </strong>$task->beginDate</h3>";
+        echo "<h3><strong>Data de Finalização: </strong>$task->endDate</h3>";
         echo "</div>";
 
         if($task->status) echo " <a href=\"endtask.php?id=$id\" class=\"btn botao-concluir-tarefa\">Concluir Tarefa</a>";

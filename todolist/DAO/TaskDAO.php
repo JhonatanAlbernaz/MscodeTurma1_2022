@@ -21,6 +21,27 @@ class TaskDAO{
 
         $stm->execute();
     }
+
+    public function update(Task $task) {
+        $stmt = Banco::getConnection()->prepare("UPDATE tasks SET endDate = :endDate, status = :novoStatus WHERE id = :id");
+        $stmt->bindParam('endDate', $task->endDate);
+        $stmt->bindParam('novoStatus', $task->status);
+        $stmt->bindParam('id', $task->id);
+    
+        $stmt->execute();
+    }
+
+    public function delete(int $id) {
+        $stmt = Banco::getConnection()->prepare("DELETE FROM tasks WHERE id = :id");
+        $stmt->bindParam('1', $id);
+    
+        $stmt->execute();
+    }
+
+    public function list() {
+        return[];
+    }
+
 }
 
 
