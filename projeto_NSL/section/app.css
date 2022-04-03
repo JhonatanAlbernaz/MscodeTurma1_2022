@@ -70,11 +70,24 @@
     width: 100%;
     color: gray;
     height: 35px;
+    padding-right: 20px !important;
     border-radius: 20px;
     padding-left: 20px;
     margin-top: 0px !important;
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
+}
+
+.tag-a-forms {
+    display: block;
+    font-size: 1rem;
+    color: #db6c38;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    transition: .5s;
+    margin-left: 335px;
+    margin-top: -20px;
+    text-decoration: none !important;
 }
 
 .botao-enviar {

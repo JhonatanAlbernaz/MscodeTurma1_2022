@@ -6,60 +6,61 @@
      <h1> Aniversariantes </h1>
      <h2> DO DIA </h2>
      <p> DIGA-NOS AS SEGUINTES INFORMAÇÕES: </p>
-     <form class="class-form" action="" method="POST">
+     <form class="class-form" action="novaPessoa.php" method="POST">
       <input type="text" name="nome" id="nome" placeholder="Nome"/>
-      <input type="date" name="data" id="dataNasc" placeholder="Data de Nascimento"/>
-      <select class="mt-3 funcoes-data" widht="10px" name="funções">
-       <option value=”dir”> Diretor </option>
-       <option value=”prof”> Professor </option>
-       <option value=”cp”> Coordenador pedagógico </option>
-       <option value=”pdgg”> Pedagogo </option>
-       <option value=”casf”> CASF </option>
-       <option value=”secre”> Secretario </option>
-       <option value=”as”> Auxiliar de secretaria </option>
-       <option value=”ce”> Coordenador escola </option>
-       <option value=”Pca”> PCA </option>
-       <option value=”cct”> Coordenador de curso técnico </option>
-       <option value=”asg”> Auxiliar de serviço gerais </option>
-       <option value=”cozinheira”> Cozinheira </option>
-       <option value=”cuida”> Cuidador </option>
-       <option value=”aee”> Professor de AEE </option>
+      <input type="text" name="dataNasc" id="dataNasc" placeholder="Data de Nascimento"/>
+      <select name="funcao" id="funcao">
+       <option name="Diretor"> Diretor </option>
+       <option name="Professor"> Professor(a) </option>
+       <option name="Coordenador pedagógico"> Coordenador pedagógico </option>
+       <option name="Pedagogo"> Pedagogo </option>
+       <option name="CASF"> CASF </option>
+       <option name="Secretario"> Secretario </option>
+       <option name="Auxiliar de secretaria"> Auxiliar de secretaria </option>
+       <option name="Coordenador escola"> Coordenador escola </option>
+       <option name="PCA"> PCA </option>
+       <option name="Coordenador de curso técnico"> Coordenador de curso técnico </option>
+       <option name="Auxiliar de serviço gerais"> Auxiliar de serviço gerais </option>
+       <option name="Cozinheira"> Cozinheira </option>
+       <option name="Cuidador"> Cuidador </option>
+       <option name="Professor de AEE"> Professor de AEE </option>
 
        <!--turmas da manhã-->
 
-       <option value=”dir”> 1i01INF </option>
-       <option value=”prof”> 1i01ADM </option>
-       <option value=”cp”> 1i02ADM </option>
-       <option value=”pdgg”> 1i01HUM </option>
-       <option value=”casf”> 2i01 </option>
-       <option value=”secre”> 2i02 </option>
-       <option value=”as”> 2i03 </option>
-       <option value=”ce”> 2i04 </option>
-       <option value=”Pca”> 3i01 </option>
-       <option value=”cct”> 3i02 </option>
-       <option value=”asg”> 3i03 </option>
-       <option value=”cozinheira”> 3i04 </option>
-       <option value=”cuida”> 3M01INF </option>
+       <option name="1i01INF"> 1i01INF </option>
+       <option name="1i01ADM"> 1i01ADM </option>
+       <option name="1i02ADM"> 1i02ADM </option>
+       <option name="1i01HUM"> 1i01HUM </option>
+       <option name="2i01"> 2i01 </option>
+       <option name="2i02"> 2i02 </option>
+       <option name="2i03"> 2i03 </option>
+       <option name="2i04"> 2i04 </option>
+       <option name="3i01"> 3i01 </option>
+       <option name="3i02"> 3i02 </option>
+       <option name="3i03"> 3i03 </option>
+       <option name="3i04"> 3i04 </option>
+       <option name="3M01INF"> 3M01INF </option>
 
        <!--Turmas da tarde-->               
 
-       <option value=”aee”> 1v01 </option>
-       <option value=”aee”> 1v02 </option>
-       <option value=”aee”> 2v01 </option>
-       <option value=”aee”> 2EMI </option>
-       <option value=”aee”> 3v01 </option>
-       <option value=”aee”> 3v02 </option>
+       <option name="1v01"> 1v01 </option>
+       <option name="1v02"> 1v02 </option>
+       <option name="2v01"> 2v01 </option>
+       <option name="2v02"> 2EMI </option>
+       <option name="3v01"> 3v01 </option>
+       <option name="3v02"> 3v02 </option>
 
        <!--turmas da noite-->
 
-       <option value=”aee”> 1EJA 1 </option>
-       <option value=”aee”> 2EJA1 </option>
-       <option value=”aee”> 3EJA1 </option>
-       <option value=”aee”> 3EJA2 </option>
-       <option value=”aee”> TEC. Comércio </option>
+       <option name="1EJA1"> 1EJA1 </option>
+       <option name="2EJA1"> 2EJA1 </option>
+       <option name="3EJA1"> 3EJA1 </option>
+       <option name="3EJA2"> 3EJA2 </option>
+       <option name="TEC. Comércio"> TEC. Comércio </option>
       </select>
       <button type="submit" class="btn botao-enviar"> Enviar </button>
      </form>
+     <a class="tag-a-forms" href="app.php"> Lista </a>
     </div>   
    </div> 
    <div class="col-lg-6"> </div>  
