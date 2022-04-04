@@ -22,7 +22,7 @@
                     echo "<h4>$row->funcao</h4>";
                 }
             }else {
-                $stmt = Banco::getConnection()->prepare("SELECT nome, funcao FROM aniversariantes");
+                $stmt = Banco::getConnection()->prepare("SELECT * FROM aniversariantes WHERE month(dataNasc) = month(now())");
                 if($stmt->execute()){
                     if($stmt->rowCount() > 0){
                 while($row = $stmt->fetch(PDO::FETCH_OBJ)){
