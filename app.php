@@ -5,6 +5,11 @@
     <meta charset="utf-8">
   </head>
   <body>
+    <style>
+      p {
+        color: red;
+      }
+     </style> 
     <div>
      <?php
        
