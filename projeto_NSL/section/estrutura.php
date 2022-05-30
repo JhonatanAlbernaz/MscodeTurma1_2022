@@ -26,6 +26,7 @@
                 if($stmt->execute()){
                     if($stmt->rowCount() > 0){
                 while($row = $stmt->fetch(PDO::FETCH_OBJ)){
+                    echo "<h4>$row->dataNasc</h4>";
                     echo "<h3>$row->nome</h3>";
                     echo "<h4>$row->funcao</h4>";
                 }

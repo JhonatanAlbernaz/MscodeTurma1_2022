@@ -1,0 +1,35 @@
+.botao-enviar-produto {
+    text-align: center;
+    margin-left: 350px;
+    color: #fff;
+    background-color: #727cf5;
+    border-color: #727cf5;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
+
+.botao-enviar-produto:hover {
+    background-color: #3c46c0;
+    color: #fff;
+}
+
+.height-400px {
+    height: 400px;
+    padding-top: 55px;
+}
+
+.widht-580px {
+    width: 580px;
+    margin-bottom: 15px;
+}
+
+.icon-check {
+    font-size: 15px;
+}
+
+.icon-delete {
+    font-size: 15px;
+    padding-left: 10px;
+}

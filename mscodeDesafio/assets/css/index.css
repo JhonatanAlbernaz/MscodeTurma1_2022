@@ -1,0 +1,138 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  --title-scale: 1;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    --title-scale: 0.7;
+  }
+}
+
+.wr {
+  max-width: 1200px;
+  max-width: var(--wr-max);
+}
+
+.section:not(.dark),
+.theme--light,
+.section:not(.dark) .color-2,
+.theme--light .color-2 {
+  color: #edeee9;
+}
+
+.section.dark,
+.theme--dark,
+.section.dark .color-2,
+.theme--dark .color-2 {
+  color: #696e59;
+}
+
+.section:not(.dark) .color-1,
+.theme--light .color-1 {
+  color: #fff;
+}
+
+.section.dark .color-1,
+.theme--dark .color-1 {
+  color: #3e4134;
+}
+
+.section:not(.dark) .color-2,
+.theme--light .color-2 {
+  color: #edeee9;
+}
+
+.section.dark .color-2,
+.theme--light .color-2 {
+  color: #696e59;
+}
+
+a:not(.btn),
+.link {
+  color: rgb(133, 173, 14);
+  --link-hover-bg: rgba(133, 173, 14, 0.05);
+  --link-hover: rgb(60, 79, 6);
+}
+
+.dark a:not(.btn),
+.dark .link,
+.theme--dark .link,
+.theme--dark a:not(.btn) {
+  color: #85ad0e;
+  --link-hover-bg: rgba(133, 173, 14, 0.05);
+  --link-hover: #3c4f06;
+}
+
+.weight-text {
+  font-weight: 400;
+}
+
+.weight-text-m {
+  font-weight: 500;
+}
+
+.weight-text-h {
+  font-weight: 600;
+}
+
+.weight-title {
+  font-weight: 400;
+}
+
+.weight-title-m {
+  font-weight: 500;
+}
+
+.weight-title-h {
+  font-weight: 700;
+}
+
+.font-title {
+  font-family: Helvetica, sans-serif;
+}
+
+a,
+.link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:not(.btn):hover {
+  text-decoration: underline
+}
+
+.section.section--n4oj2k38vq a:not(.btn),
+.section.section--n4oj2k38vq .link {
+  color: rgb(255, 255, 255);
+  --link-hover-bg: rgba(255, 255, 255, 0.05);
+  --link-hover: rgb(204, 204, 204);
+}
+
+.section.section--n4oj2k38vq {
+  --color-link: rgb(255, 255, 255);
+}
+
+.section.section--k4xrqdwompn a:not(.btn),
+.section.section--k4xrqdwompn .link {
+  color: rgb(231, 218, 218);
+  --link-hover-bg: rgba(231, 218, 218, 0.05);
+  --link-hover: rgb(191, 156, 156);
+}
+
+.section.section--k4xrqdwompn {
+  --color-link: rgb(231, 218, 218);
+}
+
+.section.section--0nztr57l22rh a:not(.btn),
+.section.section--0nztr57l22rh .link {
+  color: rgb(255, 255, 255);
+  --link-hover-bg: rgba(255, 255, 255, 0.05);
+  --link-hover: rgb(204, 204, 204);
+}
+
+.section.section--0nztr57l22rh {
+  --color-link: rgb(255, 255, 255);
+}

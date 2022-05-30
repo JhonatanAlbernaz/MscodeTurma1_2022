@@ -1,0 +1,54 @@
+.font-size-menu {
+    font-family: 'Lora', serif;
+}
+
+.font-size-albernaz-company {
+    font-family: 'Domine', serif;
+    font-size: 3.4rem;
+    font-style: italic;
+}
+
+.font-size-subtitle {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-size-title-company {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-size-name-icons {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-size-title-inventory {
+    font-family: 'PT Serif', serif;
+}
+
+.font-size-title-quotes {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.6em;
+}
+
+.font-size-subtitle-quotes {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3em;
+}
+
+.font-size-title-icons {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.font-size-register {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+}
+
+.font-size-login {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 15px;
+}
+
+.widht-580px {
+    width: 580px;
+    margin-bottom: 15px;
+}
