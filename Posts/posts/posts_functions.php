@@ -1,6 +1,6 @@
 <?php
 
-    function getTemplate($template, $folder="templates/") {
+    function getTemplate($template, $folder="posts/") {
         $templateFile = $folder.$template;
 
         if(is_file($templateFile)) $content = file_get_contents($templateFile);
