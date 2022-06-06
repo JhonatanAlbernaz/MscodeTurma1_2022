@@ -1,22 +1,39 @@
 <?php
-    require_once("templates/template_functions.php");
+  ini_set('display_errors', 1);
+  error_reporting(E_ALL);
 
+    require_once("course/functions.php");
     $pageTemplate = getTemplate("default_template.html");
-    $listCourseTemplate = getTemplate("list_course_template.html");
 
-    $nomeArq = "posts.json";
+    $courseTemplate = getTemplate('list_course.html');
+    $CategorieTemplate = getTemplate('list_categories.html');
+
+
+    $nomeArq = "./json/courses.json";
     $arq = fopen($nomeArq, "r") or die('Problemas ao abrir o arquivo.');
     $courses = fread($arq, filesize($nomeArq));
     $courses = json_decode($courses);
     fclose($arq);
 
-    $content = "";
+    $coursesContent = "";
+
     foreach($courses as $course){
-        $content = $content . parseTemplate($listCourseTemplate, $course);
+        $coursesContent = $coursesContent . parseTemplate($courseTemplate, $course);
     }
 
-    $content = parseTemplate($pageTemplate, ['content' => $content]);
+    $nomeArq = "./json/categories.json";
+    $arq = fopen($nomeArq, "r") or die('Problemas ao abrir o arquivo.');
+    $categories = fread($arq, filesize($nomeArq));
+    $categories = json_decode($categories);
+    fclose($arq);
 
-    echo $content;
+    $categoresContent = "";
 
+    foreach($categories as $categorie){
+      $categoresContent = $categoresContent . parseTemplate($CategorieTemplate, $categorie);
+    }
+
+    $content = parseTemplate($pageTemplate, ['categore' => $categoresContent, 'content' => $coursesContent]);
+
+    echo $content ;
 ?>

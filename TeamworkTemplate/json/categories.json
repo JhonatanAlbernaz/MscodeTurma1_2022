@@ -1,0 +1,16 @@
+[
+    {
+        "sub-categorias" : "Data Science",
+        "nome" : "Python"
+
+    },
+    {
+        "sub-categorias" : "Desenvolvimento Web",
+        "nome" : "HTML5"
+    },
+    {
+        "sub-categorias" : "Designer",
+        "nome" : "WordPress"
+    }
+
+]
