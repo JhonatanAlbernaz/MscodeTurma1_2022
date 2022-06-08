@@ -12,6 +12,7 @@
             }
 
             return self::$instance;
+            
         }
 
         public function save(Carro $c) {
