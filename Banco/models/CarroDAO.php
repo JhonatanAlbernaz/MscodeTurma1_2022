@@ -17,7 +17,7 @@
         public function save(Carro $c) {
 
             $stmt = Banco::getInstance()->prepare("
-                INSERT INTO Carro(placa, modelo, cor, anoFabricacao) 
+                INSERT INTO Carro (placa, modelo, cor, anoFabricacao) 
                 VALUES (:placa, :modelo, :cor, :anoFabricacao)
             ");
             
